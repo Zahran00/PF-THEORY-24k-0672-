@@ -14,6 +14,8 @@ last = num % 10
 
 sum = sum + last
 
+num = num \ 10
+
 end while
 
 print sum
