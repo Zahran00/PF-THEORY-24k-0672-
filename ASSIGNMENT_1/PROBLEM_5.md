@@ -21,31 +21,45 @@ input rainfall
 if (crop == wheat) then 
 
    if (moisture < 30) and (rainfall >= 24) then
+      
       irrigation = 1 
+   
    else 
+      
       irrigation = 0 
+   
    endif 
 
 elseif (crop == corn) then
 
    if (moisture < 40) then 
+   
    irrigation = 1 
+   
    else 
+   
    irrigation = 0 
+   
    endif
 
 elseif (crop == rice) then
 
    if (moisture < 25) and (rainfall > 24) then
+   
    irrigation = 1 
+   
    else 
+   
    irrigation = 0 
+   
    endif
 
 endif
 
 if (irrigation == 0) then
+   
    print "No need of irrigation is there!"   
+
 endif 
 
 end
