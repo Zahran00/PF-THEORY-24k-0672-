@@ -1,5 +1,6 @@
 #Problem 3: Legal age of marriage in Pakistan
 #pseudocode  
+
 declare Province as string 
 declare age as integer
 declare gender as string
