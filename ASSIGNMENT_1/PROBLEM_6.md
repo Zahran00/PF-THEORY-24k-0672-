@@ -16,13 +16,14 @@ if (ride == "The Dragon Roller Coaster") then
    
    if (height >= 48) and (age >= 10) then
      
-     print "You meet the criteria for The Carousel."
+        print "You meet the criteria for The Carousel."
    
      else 
    
-     print "Sorry, you do not meet the criteria for The Dragon Roller Coaster."
+        print "Sorry, you do not meet the criteria for The Dragon Roller Coaster."
    
      endif
+
 elseif (ride == "The Carousel") then
    
    if (age >= 5) then
