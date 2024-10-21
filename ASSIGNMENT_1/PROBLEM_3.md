@@ -45,3 +45,6 @@ Print "You status for marriage is: " & legal
 
 end
 
+![image](https://github.com/user-attachments/assets/c36d47df-ad66-404c-a618-bbbe18dba482)
+
+
